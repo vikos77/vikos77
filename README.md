@@ -27,6 +27,7 @@ Built with: Snakemake, Python, Bash
 Status: Production-ready
 
 3. RNA-seq-R-vs-Python
+
 Comparative analysis of RNA-seq workflows in R and Python
 
 Goal: Benchmark differential expression analysis between DESeq2 (R) and alternative Python implementations
