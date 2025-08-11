@@ -1,54 +1,47 @@
 # Vigneshwaran Muthuraman
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vigneshwaran-muthuraman-24491746/)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:muthuramanvigneshwaran@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/vikos77)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vigneshwaran-muthuraman/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vigneshwaran0594@gmail.com)
 
-## About Me
+Bioinformatics Researcher | Antimicrobial Resistance | Bacterial Defence Systems
+MSc Bioinformatics graduate bridging wet-lab microbiology with computational genomics. Specializing in bacterial defense system architecture and its implications for antimicrobial resistance.
 
-Microbiologist turned Bioinformatician with 3+ years of specialized experience bridging wet-lab expertise and computational analysis. My research focuses on antimicrobial resistance, molecular diagnostics, and bacterial pathogenesis using both traditional microbiology techniques and cutting-edge bioinformatics approaches.
+Current Research Focus
+Acinetobacter Defence Systems: Analyzing 500+ bacterial genomes to map defence system distribution and their correlation with antibiotic resistance genes using DefenseFinder and PADLOC pipelines.
 
-Currently pursuing a Master's in Bioinformatics at Teesside University, enhancing my computational toolkit for analyzing complex biological data.
+Repositories
+1. ![Acinetobacter-Defence-Systems](https://github.com/vikos77/Acinetobacter-defence-systems)
+Comprehensive analysis of defense system architecture in Acinetobacter species
 
-## 🧪 Wet Lab Skills
+Tools: DefenseFinder, PADLOC, CRISPRCasFinder, ResFinder
+Languages: R, Bash
+Key Finding: Identified novel correlations between defence, anti-defence systems, mobile genetic elements and antibiotic resistance genes.
 
-- **Microbiology**: Bacterial cultivation, antimicrobial susceptibility testing, biofilm analysis
-- **Molecular Biology**: PCR, qPCR, nucleic acid isolation, cloning
-- **Cell Culture**: Mammalian cell line maintenance, bacterial invasion assays
-- **Diagnostics**: High-throughput COVID-19 testing, automated RNA extraction workflows
+2. ![Acinetobacter-Defence-Pipeline](https://github.com/vikos77/acinetobacter-defence-pipeline)
+Automated workflow for bacterial defence system analysis
 
-## 💻 Computational Skills
+Features: Genome download, defence system prediction, resistance gene prediction, IME prediction, and EDA
+Built with: Snakemake, Python, Bash
+Status: Production-ready
 
-- **Languages**: R, Python, SQL, Bash
-- **Bioinformatics**: NGS analysis, differential expression, pathway analysis, KEGG enrichment
-- **Tools**: DESeq2, FastQC, GATK, SAMtools, clusterProfiler, Trimmomatic
-- **Visualization**: ggplot2, EnhancedVolcano, pheatmap, Plotly
-- **Data Analysis**: Statistical modeling, machine learning fundamentals
+3. RNA-seq-R-vs-Python
+Comparative analysis of RNA-seq workflows in R and Python
 
-## 🔬 Featured Projects
+Goal: Benchmark differential expression analysis between DESeq2 (R) and alternative Python implementations
+Status: In development
 
-### [RNA-seq Analysis of RmpA Regulation](https://github.com/vikos77/bioinformatics-portfolio/tree/main/projects/rna-seq-analysis)
-Comprehensive analysis of transcriptional changes induced by RmpA overexpression in E. coli, revealing impacts on ribosomal biogenesis and nucleotide sugar metabolism pathways.
-- **Technologies**: R, DESeq2, clusterProfiler, KEGG pathway analysis
-- **Key Findings**: Identified distinct metabolic reprogramming consistent with biofilm formation
+Technical Skills
+Bioinformatics: NGS analysis • Bacterial genomics • Defense system prediction • Transcriptomics
+Languages: R • Python • Bash • SQL
+Key Tools: DESeq2 • DefenseFinder • PADLOC • Snakemake • Galaxy
 
-### [More projects coming soon!]
-- Genome assembly and annotation
-- Microbial community analysis
-- Machine learning for antimicrobial resistance prediction
+Recent Achievements
 
-## 📚 Publications
+Analyzed 500+ Acinetobacter genomes for defence system patterns
+Developed automated pipelines reducing analysis time by 70%
+Published 3 peer-reviewed papers on antimicrobial resistance
 
-- Takke A, Zarekar M, **Muthuraman V**, et al. (2022). Comparative study of Clinical features and Vaccination status in Omicron and non-Omicron infected patients. *Journal of Family Medicine and Primary Care*
-- Daswani P, **Muthuraman V**, et al. (2020). Effect of Psidium guajava Leaf Decoction on Antibiotic-resistant Clinical Isolates of Shigella spp. *International Journal of Enteric Pathogens*
-- Jnana A, **Muthuraman V**, et al. (2020). Microbial community distribution in successive wound grades of individuals with diabetic foot ulcers. *Applied and Environmental Microbiology*
 
-## 🎓 Education & Certifications
-
-- Master of Bioinformatics, Teesside University (2025)
-- Associate Data Analyst - DataCamp Certification
-- Data Analyst with R - DataCamp Professional Certification
-
----
-
-💡 **Currently seeking opportunities** in bioinformatics, microbial genomics, and infectious disease research.
+Let's Connect
+Currently seeking opportunities in bacterial genomics, antimicrobial resistance research, and bioinformatics pipeline development.
+📧 vigneshwaran0594@gmail.com
