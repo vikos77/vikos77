@@ -11,6 +11,7 @@ Acinetobacter Defence Systems: Analyzing 500+ bacterial genomes to map defence s
 
 Repositories
 1. [Acinetobacter-Defence-Systems](https://github.com/vikos77/Acinetobacter-defence-systems)
+
 Comprehensive analysis of defense system architecture in Acinetobacter species
 
 Tools: DefenseFinder, PADLOC, CRISPRCasFinder, ResFinder
@@ -18,6 +19,7 @@ Languages: R, Bash
 Key Finding: Identified novel correlations between defence, anti-defence systems, mobile genetic elements and antibiotic resistance genes.
 
 2. [Acinetobacter-Defence-Pipeline](https://github.com/vikos77/acinetobacter-defence-pipeline)
+
 Automated workflow for bacterial defence system analysis
 
 Features: Genome download, defence system prediction, resistance gene prediction, IME prediction, and EDA
@@ -40,7 +42,6 @@ Recent Achievements
 Analyzed 500+ Acinetobacter genomes for defence system patterns
 Developed automated pipelines reducing analysis time by 70%
 Published 3 peer-reviewed papers on antimicrobial resistance
-
 
 Let's Connect
 Currently seeking opportunities in bacterial genomics, antimicrobial resistance research, and bioinformatics pipeline development.
