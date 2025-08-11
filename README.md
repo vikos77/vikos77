@@ -5,7 +5,7 @@
 
 ## Bioinformatics Researcher | Antimicrobial Resistance | Bacterial Defence Systems
 
-MSc Bioinformatics graduate bridging wet-lab microbiology with computational genomics. Specializing in bacterial defense system architecture and its implications for antimicrobial resistance.
+MSc Bioinformatics graduate bridging wet-lab microbiology with computational genomics. Specializing in bacterial defence system architecture and its implications for antimicrobial resistance.
 
 ### Current Research Focus
 
@@ -14,7 +14,7 @@ Acinetobacter Defence Systems: Analyzing 500+ bacterial genomes to map defence s
 ## Repositories
 ### 1. [Acinetobacter-Defence-Systems](https://github.com/vikos77/Acinetobacter-defence-systems)
 
-Comprehensive analysis of defense system architecture in Acinetobacter species
+Comprehensive analysis of defence system architecture in Acinetobacter species
 
 **Tools**: DefenseFinder, PADLOC, CRISPRCasFinder, ResFinder
 
