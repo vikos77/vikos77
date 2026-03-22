@@ -57,12 +57,14 @@ The key technical finding: hifiasm's `--primary` mode produces a functional asse
 
 ---
 
-### RNA-seq Workflow: R vs Python *(In development)*
-*Benchmarking differential expression analysis across two computational stacks*
+### [16S Amplicon Metagenomics: VSEARCH vs QIIME2](https://github.com/vikos77/metagenomics_wound_microbiome)
+*Comparative 16S rRNA pipeline applied to 122 clinical diabetic wound samples*
 
-Most bioinformatics teams have a preferred language for RNA-seq analysis, but the performance and reproducibility differences between DESeq2 (R) and Python-based implementations are rarely documented systematically. This project runs matched datasets through both stacks and documents where results diverge, where they agree, and what drives the differences — aimed at producing a reproducible reference for teams making implementation decisions.
+VSEARCH and QIIME2 are the two dominant tool choices for amplicon-based microbiome analysis, but their performance characteristics on the same clinical dataset are rarely documented directly. This pipeline applies both to 122 diabetic foot ulcer samples from the Jnana et al. (2020) dataset (*Applied and Environmental Microbiology*), quantifying where the methods agree and where they diverge.
 
-**Stack:** R · DESeq2 · Python · edgeR · Bash
+Overall community composition shows strong concordance (Pearson r = 0.787 for dominant taxa), but the methods separate substantially on rare organisms — VSEARCH detected 820 low-abundance genera against QIIME2's 454, with 322 shared. For clinical microbiome work where rare opportunistic pathogens are relevant, that difference affects what gets reported.
+
+**Stack:** Python · VSEARCH · QIIME2 · DADA2 · BLAST+ (SILVA) · FastQC · Trimmomatic · matplotlib · seaborn
 
 ---
 
