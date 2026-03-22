@@ -42,6 +42,19 @@ Companion repository to the pipeline above. Takes the structured output and perf
 
 ---
 
+### Long-Read Assembly Workflows: Haploid to Hi-C Phased Diploid
+*Reproducible HiFi and HiFi+Hi-C assembly pipelines across three organisms of increasing genomic complexity*
+
+Assembly strategy is not universal — ploidy, heterozygosity, and available data types all determine the right approach. This series of three end-to-end pipelines works through that decision space systematically: a haploid bacterial genome as a clean baseline, a diploid fungal pathogen (*C. albicans*) assembled with HiFi reads only, and a diploid yeast (*S. cerevisiae*) assembled to chromosome level using HiFi + Hi-C phasing data.
+
+The key technical finding: hifiasm's `--primary` mode produces a functional assembly from a diploid genome without phasing data, but the 209-contig output and complex heterozygous bubble graph for *C. albicans* make the limitation tangible. Adding Hi-C chromatin contact maps for *S. cerevisiae* resolves both haplotypes to chromosome-scale — 17 and 16 contigs with 0-edge contig graphs and N50 of ~923 kb — demonstrating where HiFi alone is sufficient and where it is not.
+
+**Stack:** hifiasm · seqkit · NanoPlot · FastQC · QUAST · BUSCO (fungi_odb10 · saccharomycetes_odb10) · Bandage
+
+**Repos:** [*E. coli* HiFi](https://github.com/vikos77/ecoli-hifi-assembly) · [*C. albicans* diploid](https://github.com/vikos77/Candida-HIFI-Assembly) · [*S. cerevisiae* Hi-C phased](https://github.com/vikos77/yeast-hifi-hic-assembly)
+
+---
+
 ### RNA-seq Workflow: R vs Python *(In development)*
 *Benchmarking differential expression analysis across two computational stacks*
 
@@ -57,7 +70,8 @@ Most bioinformatics teams have a preferred language for RNA-seq analysis, but th
 |--------|---------------------|
 | **Pipeline Development** | Snakemake · Bash scripting · Git · reproducible workflow design |
 | **NGS Analysis** | FastQC · Trim Galore · BWA · STAR · GATK · SAMtools · QIIME2 |
-| **Bacterial Genomics** | DefenseFinder · PADLOC · ResFinder · CRISPRCasFinder · hifiasm |
+| **Genome Assembly** | hifiasm (HiFi · Hi-C phased) · Bandage · QUAST · BUSCO |
+| **Bacterial Genomics** | DefenseFinder · PADLOC · ResFinder · CRISPRCasFinder |
 | **Statistical Analysis** | R (DESeq2, edgeR, ggplot2, Shiny) · Python · SQL |
 | **Sequencing Platforms** | Illumina short-read · PacBio HiFi · Oxford Nanopore (library prep and data analysis) |
 | **Clinical & Regulatory** | ISO 15189 method validation · GLP · SOP development · high-throughput QC |
