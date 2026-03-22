@@ -29,6 +29,8 @@ Acinetobacter baumannii is one of the WHO's priority pathogens — notorious for
 
 **Scale:** Validated across 500+ *Acinetobacter* genomes
 
+**Published:** Findings from this pipeline contributed to a [first-author publication](https://doi.org/10.1093/jambio/lxag069) in *Journal of Applied Microbiology* (2026)
+
 ---
 
 ### [Acinetobacter Defence Systems — Statistical Analysis](https://github.com/vikos77/Acinetobacter-defence-systems)
@@ -80,7 +82,9 @@ Most bioinformatics teams have a preferred language for RNA-seq analysis, but th
 
 ## Publications
 
-Three peer-reviewed papers spanning COVID-19 diagnostics, antimicrobial resistance, and microbiome analysis:
+Four peer-reviewed papers spanning genome defence systems, COVID-19 diagnostics, antimicrobial resistance, and microbiome analysis:
+
+- **Muthuraman V, Roy P, Dean P, Lopes BS, Shehreen S.** (2026). The balance between defence systems and horizontal gene transfer shapes adaptation in clinical strains of *Acinetobacter* spp. *Journal of Applied Microbiology*, lxag069. [DOI](https://doi.org/10.1093/jambio/lxag069)
 
 - **Takke A, Zarekar M, Muthuraman V, et al.** (2022). Comparative study of clinical features and vaccination status in Omicron and non-Omicron infected patients during the 3rd wave in Mumbai. *Journal of Family Medicine and Primary Care*, 11(10), 6135–6142. [DOI](https://doi.org/10.4103/jfmpc.jfmpc_902_22)
 
