@@ -8,7 +8,7 @@
 
 ## Bioinformatics Analyst | NGS Pipeline Development | Antimicrobial Resistance
 
-Computational biologist and microbiologist with dual MSc qualifications — Bioinformatics with Distinction (Teesside University, 2025) and Molecular Biology and Human Genetics (Manipal University) — and a first-author publication in the Journal of Applied Microbiology (2026) on bacterial antiviral defence systems and AMR gene co-evolution across clinical Acinetobacter populations. Four years of active research across pipeline development, population-scale comparative genomics, cancer metagenomics, and high-throughput molecular diagnostics. I build production-grade pipelines for biological problems I understand at bench level.
+Computational biologist and microbiologist with dual MSc qualifications - Bioinformatics with Distinction (Teesside University, 2025) and Molecular Biology and Human Genetics (Manipal University), and a first-author publication in the Journal of Applied Microbiology (2026) on bacterial antiviral defence systems and AMR gene co-evolution across clinical Acinetobacter populations. Four years of active research across pipeline development, population-scale comparative genomics, cancer metagenomics, and high-throughput molecular diagnostics. I build production-grade pipelines for biological problems I understand at bench level.
 
 ---
 
