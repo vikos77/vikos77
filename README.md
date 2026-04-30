@@ -97,12 +97,7 @@ Four peer-reviewed papers spanning genome defence systems, COVID-19 diagnostics,
 Before moving into computational work full-time, I spent three years in active research and clinical laboratory environments:
 
 - **ICMR – National Institute of Immunohaematology** - scaled COVID-19 RT-qPCR testing from 100 to 400+ samples/day through workflow automation; built the QC monitoring infrastructure used across the lab's 24/7 operations
-- **The Foundation for Medical Research** — AMR research on MDR *Shigella*; designed and validated the 96-well screening assay that underpins the published findings on guava leaf extract
-- **Manipal School of Life Sciences** — characterised wound microbiome dynamics in diabetic foot ulcers using 16S rRNA sequencing and QIIME2; the dataset and pipeline from this work were published in *Applied and Environmental Microbiology*
+- **The Foundation for Medical Research** - AMR research on MDR *Shigella*; designed and validated the 96-well screening assay that underpins the published findings on guava leaf extract
+- **Manipal School of Life Sciences** - characterised wound microbiome dynamics in diabetic foot ulcers using 16S rRNA sequencing and QIIME2; the dataset and pipeline from this work were published in *Applied and Environmental Microbiology*
 
 This background shapes how I approach computational problems as I know what the data represents before it enters the pipeline, which changes the questions you ask of it.
-
----
-
-*MSc Bioinformatics — Teesside University (2025)*
-*MSc Molecular Biology & Human Genetics — Manipal University (2017)*
