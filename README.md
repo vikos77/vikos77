@@ -8,7 +8,7 @@
 
 ## Computational Microbiologist | AMR Genomics | Cancer Metagenomics | UKRI AIRR HPC Award
 
-Computational microbiologist with dual MSc qualifications — Bioinformatics with Distinction (Teesside University, 2025) and Molecular Biology and Human Genetics (Manipal University) — and a first-author publication in the Journal of Applied Microbiology (2026) on bacterial antiviral defence systems and AMR gene co-evolution across clinical Acinetobacter populations. Alongside that work, I was awarded 10,000 GPUh on the Dawn national AI research service through competitive UKRI AIRR peer review for cancer metagenomics pipeline development, and contributed analytical outputs to a prior UKRI HPC allocation of 10,000 CPUh and 10,000 GPUh on the same infrastructure. Four years of active research across pipeline development, population-scale comparative genomics, cancer metagenomics, and high-throughput molecular diagnostics. I build production-grade pipelines for biological problems I understand at bench level.
+Computational microbiologist with dual MSc qualifications - Bioinformatics with Distinction (Teesside University, 2025) and Molecular Biology and Human Genetics (Manipal University) - and a first-author publication in the Journal of Applied Microbiology (2026) on bacterial antiviral defence systems and AMR gene co-evolution across clinical Acinetobacter populations. Alongside that work, I was awarded 10,000 GPUh on the Dawn national AI research service through competitive UKRI AIRR peer review for cancer metagenomics pipeline development, and contributed analytical outputs to a prior UKRI HPC allocation of 10,000 CPUh and 10,000 GPUh on the same infrastructure. Four years of active research across pipeline development, population-scale comparative genomics, cancer metagenomics, and high-throughput molecular diagnostics. I build production-grade pipelines for biological problems I understand at bench level.
 
 ---
 
@@ -17,7 +17,7 @@ Computational microbiologist with dual MSc qualifications — Bioinformatics wit
 ### [Acinetobacter Defence System Pipeline](https://github.com/vikos77/acinetobacter-defence-pipeline)
 *Production-ready Snakemake workflow for large-scale bacterial defence system analysis*
 
-Acinetobacter baumannii is one of the WHO's priority pathogens — notorious for acquiring resistance and evading clinical interventions, but the relationship between its phage defence systems and antibiotic resistance gene carriage was poorly characterised. I built an end-to-end automated pipeline to investigate this at scale.
+Acinetobacter baumannii is one of the WHO's priority pathogens, notorious for acquiring resistance and evading clinical interventions, but the relationship between its phage defence systems and antibiotic resistance gene carriage was poorly characterised. I built an end-to-end automated pipeline to investigate this at scale.
 
 **What it does:** Retrieves genomes from NCBI, runs DefenseFinder and PADLOC for defence system prediction, ResFinder for resistance gene identification, and integrative mobile element prediction, then outputs structured result tables ready for statistical analysis. Fully reproducible across fresh environments.
 
@@ -29,23 +29,23 @@ Acinetobacter baumannii is one of the WHO's priority pathogens — notorious for
 
 ---
 
-### [Acinetobacter Defence Systems — Statistical Analysis](https://github.com/vikos77/Acinetobacter-defence-systems)
+### [Acinetobacter Defence Systems - Statistical Analysis](https://github.com/vikos77/Acinetobacter-defence-systems)
 *R-based statistical analysis of defence system architecture and AMR correlations*
 
 Companion repository to the pipeline above. Takes the structured output and performs species-level comparative analysis, co-occurrence testing, and correlation mapping between defence system presence, resistance gene load, and mobile genetic element distribution.
 
-**Key finding:** Specific defence systems — particularly Gao_Qat — co-occur with multiple resistance determinants at rates significantly above background, suggesting shared genomic neighbourhoods that may facilitate simultaneous acquisition of defence and resistance. SspBCDE was consistently enriched in *A. baumannii* clinical isolates, implicating it as a factor in this pathogen's clinical persistence.
+**Key finding:** Specific defence systems, particularly Gao_Qat co-occur with multiple resistance determinants at rates significantly above background, suggesting shared genomic neighbourhoods that may facilitate simultaneous acquisition of defence and resistance. SspBCDE was consistently enriched in *A. baumannii* clinical isolates, implicating it as a factor in this pathogen's clinical persistence.
 
 **Stack:** R · Fisher's exact testing · FDR correction · Spearman correlation · ggplot2 · pheatmap · circlize
 
 ---
 
-### CLAUDE Pipeline — Cancer Metagenomics (Pre-publication)
+### CLAUDE Pipeline - Cancer Metagenomics (Pre-publication)
 *13-phase metagenomics pipeline for bacteriophage and mobilome characterisation from tumour WGS data*
 
 Large-scale pipeline integrating 30+ tools across MAG binning (MetaBAT2, DAS Tool, CheckM2, GTDB-Tk), viral consensus identification (geNomad, DeepVirFinder, VirSorter2), phage annotation and host prediction (iPHoP Jun 2025 database), mobilome profiling (ISEScan, IntegronFinder, mobileOG-db) and defence system characterisation (DefenseFinder, PADLOC, CRISPRCasFinder). Comprehensive QC validation across all phases. Executed on Cambridge University HPC infrastructure. Awarded 10,000 GPUh on the Dawn national AI research service via competitive UKRI AIRR peer review.
 
-Manuscript in preparation. Repository available at [github.com/vikos77/Cancer-Microbiome](https://github.com/vikos77/Cancer-Microbiome) — biological findings are under pre-publication confidentiality.
+Manuscript in preparation. Repository available at [github.com/vikos77/Cancer-Microbiome](https://github.com/vikos77/Cancer-Microbiome) - biological findings are under pre-publication confidentiality.
 
 **Stack:** Python · Snakemake · MetaBAT2 · DAS Tool · CheckM2 · GTDB-Tk · geNomad · DeepVirFinder · iPHoP · DefenseFinder · PADLOC · CRISPRCasFinder
 
@@ -54,7 +54,7 @@ Manuscript in preparation. Repository available at [github.com/vikos77/Cancer-Mi
 ### Long-Read Assembly Workflows: Haploid to Hi-C Phased Diploid
 *Reproducible HiFi and HiFi+Hi-C assembly pipelines across three organisms of increasing genomic complexity*
 
-Assembly strategy is not universal — ploidy, heterozygosity, and available data types all determine the right approach. This series of three end-to-end pipelines works through that decision space systematically: a haploid bacterial genome as a clean baseline, a diploid fungal pathogen (*C. albicans*) assembled with HiFi reads only, and a diploid yeast (*S. cerevisiae*) assembled to chromosome level using HiFi + Hi-C phasing data.
+Assembly strategy is not universal - ploidy, heterozygosity, and available data types all determine the right approach. This series of three end-to-end pipelines works through that decision space systematically: a haploid bacterial genome as a clean baseline, a diploid fungal pathogen (*C. albicans*) assembled with HiFi reads only, and a diploid yeast (*S. cerevisiae*) assembled to chromosome level using HiFi + Hi-C phasing data.
 
 The key technical finding: hifiasm's `--primary` mode produces a functional assembly from a diploid genome without phasing data, but the 209 contig output and complex heterozygous bubble graph for *C. albicans* make the limitation tangible. Adding Hi-C chromatin contact maps for *S. cerevisiae* resolves both haplotypes to chromosome-scale 17 and 16 contigs with 0-edge contig graphs and N50 of ~923 kb, demonstrating where HiFi alone is sufficient and where it is not.
 
@@ -69,7 +69,7 @@ The key technical finding: hifiasm's `--primary` mode produces a functional asse
 
 VSEARCH and QIIME2 are the two dominant tool choices for amplicon-based microbiome analysis, but their performance characteristics on the same clinical dataset are rarely documented directly. This pipeline applies both to 122 diabetic foot ulcer samples from the Jnana et al. (2020) dataset (*Applied and Environmental Microbiology*), quantifying where the methods agree and where they diverge.
 
-Overall community composition shows strong concordance (Pearson r = 0.787 for dominant taxa), but the methods separate substantially on rare organisms — VSEARCH detected 820 low-abundance genera against QIIME2's 454, with 322 shared. For clinical microbiome work where rare opportunistic pathogens are relevant, that difference affects what gets reported.
+Overall community composition shows strong concordance (Pearson r = 0.787 for dominant taxa), but the methods separate substantially on rare organisms. VSEARCH detected 820 low-abundance genera against QIIME2's 454, with 322 shared. For clinical microbiome work where rare opportunistic pathogens are relevant, that difference affects what gets reported.
 
 **Stack:** Python · VSEARCH · QIIME2 · DADA2 · BLAST+ (SILVA) · FastQC · Trimmomatic · matplotlib · seaborn
 
@@ -108,8 +108,8 @@ Four peer-reviewed papers spanning genome defence systems, COVID-19 diagnostics,
 
 Before moving into computational work full-time, I spent three years in active research and clinical laboratory environments:
 
-- **ICMR – National Institute of Immunohaematology** — scaled COVID-19 RT-qPCR testing from 100 to 400+ samples/day through workflow automation; built the R Shiny QC monitoring infrastructure used across the lab's 24/7 operations
-- **The Foundation for Medical Research** — AMR research on MDR *Shigella*; designed and validated the 96-well screening assay that underpins the published findings on guava leaf extract
-- **Manipal School of Life Sciences** — coordinated multi-site sample collection from 100+ diabetic foot ulcer patients, prepared clinical specimens for 16S rRNA amplicon sequencing on Illumina MiSeq, and established a biobank of 200+ clinical isolates. Subsequently conducted an independent computational replication and benchmarking study on the published dataset, comparing VSEARCH and QIIME2 across the full 122-sample cohort
+- **ICMR - National Institute of Immunohaematology** - scaled COVID-19 RT-qPCR testing from 100 to 400+ samples/day through workflow automation; built the R Shiny QC monitoring infrastructure used across the lab's 24/7 operations
+- **The Foundation for Medical Research** - AMR research on MDR *Shigella*; designed and validated the 96-well screening assay that underpins the published findings on guava leaf extract
+- **Manipal School of Life Sciences** - coordinated multi-site sample collection from 100+ diabetic foot ulcer patients, prepared clinical specimens for 16S rRNA amplicon sequencing on Illumina MiSeq, and established a biobank of 200+ clinical isolates. Subsequently conducted an independent computational replication and benchmarking study on the published dataset, comparing VSEARCH and QIIME2 across the full 122-sample cohort
 
-This background shapes how I approach computational problems — I know what the data represents before it enters the pipeline, which changes the questions you ask of it.
+This background shapes how I approach computational problems, I know what the data represents before it enters the pipeline, which changes the questions you ask of it.
